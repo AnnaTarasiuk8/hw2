@@ -1,0 +1,39 @@
+body
+{   display:block;
+    padding-top: 200px;
+    background-image: url("food.jpg");
+
+}
+h1
+{
+    font-style: italic;
+    text-align: center;
+    font-size: 80px;
+    color: #ff12ea;
+    text-shadow: 2px 2px rgba(30, 5, 255, 0.97);
+}
+#container
+{
+    box-shadow: aquamarine;
+    background-color: #b8a648;
+    width: 100%;
+    height: 500px;
+
+}
+#line
+{
+    position: absolute;
+    width: 1px;
+    height: 500px;
+    background-color: black;
+    margin-left: 50%;
+}
+h3{
+    font-style: italic;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+}
+li{
+    color:rebeccapurple;
+}
