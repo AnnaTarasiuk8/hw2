@@ -97,16 +97,12 @@ label2
     color: darkred;
     font-size: 35px;
     column-span: 2;
-
 }
 .line{
-
-
     background: linear-gradient(to left, deeppink,pink);
     margin-top: 30px;
     margin-left: 0px;
     height:3px;
     color:gray;
     width: 30%;
-
 }
