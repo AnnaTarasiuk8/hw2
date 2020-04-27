@@ -9,7 +9,7 @@ function addYourTotal() {
     let ul = document.getElementById("listOfFood");
 
     if (name.value === "" || calories.value === "" || quantity.value === "" || isNaN(parseInt(calories.value))) {
-        result.innerText = "злые слова негодования";
+        result.innerText = "Wrong entry";
         return;
     }
     array.push(new Food(name.value, calories.value, quantity.value));
@@ -31,7 +31,7 @@ function count() {
     for (let i = 0; i < array.length; i++) {
         sum += parseInt(array[i].pCalories);
     }
-    document.getElementById("result").innerText = "вы потолстели сегодня на - " + sum;
+    document.getElementById("result").innerText = "You have consumed  " + sum + " " + "calories";
 }
 
 function fClear() {
