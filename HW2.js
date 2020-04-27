@@ -24,7 +24,6 @@ function addYourTotal() {
     quantity.value = "";
     count();
 }
-
 function count() {
 
     let sum = 0;
