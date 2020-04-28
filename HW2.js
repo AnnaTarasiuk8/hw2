@@ -1,6 +1,5 @@
 let array = Array();
 
-
 function addYourTotal() {
     let name = document.getElementById("nameOfFood");
     let calories = document.getElementById("calories");
@@ -37,7 +36,6 @@ function fClear() {
     document.getElementById("result").innerText = "";
     let ul = document.getElementById("listOfFood");
     array = Array();
-
     for (let i = ul.children.length - 1; i >= 0; i--) {
         ul.children[i].remove();
     }

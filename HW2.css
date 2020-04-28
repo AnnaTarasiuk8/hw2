@@ -2,7 +2,6 @@ body
 {   display:block;
     padding-top: 50px;
     background-image: url("food.jpg");
-
     column-gap: 40px;
     column-rule-style: solid;
 
@@ -24,8 +23,6 @@ h1
     width: 100%;
     height: auto;
 background-blend-mode: overlay;
-
-
 }
 
 h3{
@@ -35,7 +32,6 @@ h3{
     font-size: 22px;
 }
 ul {
-
     padding: 20px;
     margin-right: 300px;
     column-span: 2;
@@ -48,7 +44,6 @@ ul {
     width: 250px;
     padding-top: auto;
     column-span: 2;
-
 }
 input{
     width: 20%;
@@ -90,7 +85,6 @@ ul{
     column-span: 2;
     display:block;
     color: brown;
-
 }
 label2
 {
